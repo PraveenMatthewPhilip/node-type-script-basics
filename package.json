@@ -1,0 +1,20 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "node typescript  basics - just a refresher",
+  "main": "index.js",
+  "scripts": {
+    "start:ts-node": "ts-node src/index.ts",
+    "start:ts-node-dev": "ts-node-dev --respawn src/index.ts",
+    "start:nodemon": "nodemon --exec ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "ts-node-dev": "^1.0.0-pre.63",
+    "typescript": "^4.0.3"
+  }
+}
